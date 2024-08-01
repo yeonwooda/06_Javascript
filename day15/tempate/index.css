@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.coffee {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  width: fit-content;
+  padding: 20px;
+  height: 100px;
+}
