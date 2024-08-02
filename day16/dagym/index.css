@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.dagym {
+  display: flex;
+  gap: 20px;
+  padding: 20px 50px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  width: 960px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image > .imageBox {
+  width: 150px;
+  height: 150px;
+}
+
+.image > .imageBox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.low {
+  display: flex;
+}
